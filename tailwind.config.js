@@ -5,5 +5,9 @@ module.exports = {
     extend: {},
   },
   plugins: [],
+  corePlugins: {
+    // enable arbitrary values for transformations
+    transform: true,
+  },
 }
 

@@ -5,3 +5,7 @@
 #version-text {
     width: fit-content;  
 }
+
+.flipped {
+    transform: scaleX(-1) translateY(0.5rem); /* 0.5rem is equivalent to translate-y-2 in Tailwind */
+  }
