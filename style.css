@@ -7,5 +7,21 @@
 }
 
 .flipped {
-    transform: scaleX(-1) translateY(0.5rem); /* 0.5rem is equivalent to translate-y-2 in Tailwind */
+    transform: scaleX(-1) translateY(0.5rem);
   }
+
+  .version-text {
+    transition: all 0.3s ease; 
+}
+
+.version-text:hover {
+    transform: translateY(-0.25rem); 
+}
+
+.version-text .arrow {
+    transition: transform 0.3s ease; 
+}
+
+.version-text:hover .arrow {
+    transform: translateX(0.5rem);
+}
