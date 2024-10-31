@@ -25,3 +25,31 @@
 .version-text:hover .arrow {
     transform: translateX(0.5rem);
 }
+
+.gradient-hover {
+    background-color: #F1F5F9; 
+    border-radius: 0.5rem;
+    padding: 1px;
+    margin-top: 2rem;
+    transition: background 0.3s ease; 
+  }
+  
+ 
+  .soft-gradient-hover {
+    background-color: #FFFFFF; 
+    border-radius: 0.5rem;
+    padding: 1.5rem;
+    transition: background 0.3s ease; 
+  }
+  
+
+  .gradient-hover:hover {
+    background: linear-gradient(135deg, #FEB2B2, #E9D8FD, #FEFCBF); 
+  }
+  
+
+  .gradient-hover:hover .soft-gradient-hover {
+    background: linear-gradient(135deg, #FFF5F5, #FAF5FF, #FFFBEB);
+  }
+  
+  
