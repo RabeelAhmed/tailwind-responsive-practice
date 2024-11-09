@@ -51,5 +51,9 @@
   .gradient-hover:hover .soft-gradient-hover {
     background: linear-gradient(135deg, #FFF5F5, #FAF5FF, #FFFBEB);
   }
+
+  #customer-content-img {
+    width: fit-content;
+  }
   
   
