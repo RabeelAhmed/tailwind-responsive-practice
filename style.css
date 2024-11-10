@@ -56,4 +56,13 @@
     width: fit-content;
   }
   
+  #customer-img {
+    display: flex;
+    justify-content: end;
+  }
+
+  #customer-img img{
+    width: 80%;
+    height: 80%;
+  }
   
