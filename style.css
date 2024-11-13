@@ -65,4 +65,23 @@
     width: 80%;
     height: 80%;
   }
-  
+
+
+/* Default (large screens) */
+.translate-x-6.translate-y-6 {
+  transform: translate(4rem,5rem); /* Applies both X and Y translations */
+}
+
+/* Small screens (640px and up) */
+@media (min-width: 640px) {
+  .sm\:translate-x-4.sm\:translate-y-4 {
+    transform: translate(1rem, 1rem); /* Applies both X and Y translations for small screens */
+  }
+}
+
+/* Medium screens (768px and up) */
+@media (min-width: 768px) {
+  .md\:translate-x-2.md\:translate-y-2 {
+    transform: translate(0.5rem, 0.5rem); /* Applies both X and Y translations for medium screens */
+  }
+}
