@@ -1115,7 +1115,7 @@
       <div id="payment-categories" class="pt-12">
 
         <div id="categories" class="flex flex-col gap-y-8 lg:flex-row lg:gap-x-8">
-          <div id="category-1" class="px-10 py-6 flex flex-col border border-gray-300 rounded-lg">
+          <div id="category-1" class="px-10 py-6 flex flex-col border border-gray-300 rounded-lg lg:w-1/2">
 
             <h1 class="font-semibold text-4xl">Free</h1>
 
@@ -1158,11 +1158,14 @@
             </button>
           </div>
 
-          <div id="category-2" class="px-10 py-6 flex flex-col border border-gray-300 rounded-lg">
+          <div id="category-2" class="px-10 py-6 flex flex-col border border-gray-300 rounded-lg lg:w-1/2">
 
-            <h1 class="font-semibold text-4xl">Free</h1>
+            <h1 class="font-semibold text-4xl">Essential</h1>
 
-            <p class="text-lg text-gray-500 mt-4">For personal use or testing your app before deploying to customers.</p>
+            <p class="text-lg text-gray-500 mt-4">For simple desktop apps.</p>
+
+            <h1 class="text-xl font-semibold mt-4">$100
+              <span class="font-medium text-gray-500">/month</span></h1>
 
             <h2 class="uppercase text-gray-600 font-semibold mt-8">Key Features</h2>
 
@@ -1170,28 +1173,28 @@
               <div class="flex items-center gap-2">
                 <i class="fa-solid fa-check text-gray-500"></i>
                 <a href="#" class="text-lg text-gray-800"
-                  >Free for personal use</a
+                  >Windows, Mac & Linux</a
                 >
               </div>
 
               <div class="flex items-center gap-2">
                 <i class="fa-solid fa-check text-gray-500"></i>
                 <a href="#" class="text-lg text-gray-800"
-                  >Run app locally</a
+                  >Code Signing</a
                 >
               </div>
 
               <div class="flex items-center gap-2">
                 <i class="fa-solid fa-xmark text-gray-500"></i>
                 <a href="#" class="text-lg text-gray-800"
-                  >No Code Signing</a
+                  >Native Installers</a
                 >
               </div>
 
               <div class="flex items-center gap-2">
                 <i class="fa-solid fa-xmark text-gray-500"></i>
                 <a href="#" class="text-lg text-gray-800"
-                  >No Native Installers</a
+                  >Email/chat support</a
                 >
               </div>
             </div>
@@ -1201,45 +1204,56 @@
             </button>
           </div>
 
-          <div id="category-3" class="px-10 py-6 flex flex-col border border-gray-300 rounded-lg">
+          <div id="category-3" class="px-10 py-6 flex flex-col border border-gray-300 rounded-lg lg:w-1/2">
 
-            <h1 class="font-semibold text-4xl">Free</h1>
+            <div id="popular" class="absolute">
 
-            <p class="text-lg text-gray-500 mt-4">For personal use or testing your app before deploying to customers.</p>
+            <div class="px-3 py-1 bg-blue-200 rounded-full font-semibold text-blue-800 relative -top-10 left-2/3">
+              Most popular
+            </div>
 
-            <h2 class="uppercase text-gray-600 font-semibold mt-8">Key Features</h2>
+          </div>
+
+            <h1 class="font-semibold text-4xl">Professional</h1>
+
+            <p class="text-lg text-gray-500 mt-4">For sophisticated desktop apps.</p>
+
+            <h1 class="text-xl font-semibold mt-4">$240
+              <span class="font-medium text-gray-500">/month</span></h1>
+
+            <h2 class="uppercase text-gray-600 font-semibold mt-8">Everything in Essential Plus</h2>
 
             <div class="space-y-3 mt-6">
               <div class="flex items-center gap-2">
                 <i class="fa-solid fa-check text-gray-500"></i>
                 <a href="#" class="text-lg text-gray-800"
-                  >Free for personal use</a
+                  >Branded Download links</a
                 >
               </div>
 
               <div class="flex items-center gap-2">
                 <i class="fa-solid fa-check text-gray-500"></i>
                 <a href="#" class="text-lg text-gray-800"
-                  >Run app locally</a
+                  >Analytics</a
                 >
               </div>
 
               <div class="flex items-center gap-2">
                 <i class="fa-solid fa-xmark text-gray-500"></i>
                 <a href="#" class="text-lg text-gray-800"
-                  >No Code Signing</a
+                  >Access to Plugins</a
                 >
               </div>
 
               <div class="flex items-center gap-2">
                 <i class="fa-solid fa-xmark text-gray-500"></i>
                 <a href="#" class="text-lg text-gray-800"
-                  >No Native Installers</a
+                  >Access to restricted API</a
                 >
               </div>
             </div>
 
-            <button class="mt-10 px-8 py-3 font-semibold text-lg border border-gray-300 hover:border-gray-400 transition ease-in-out duration-150 rounded-lg shadow-sm text-blue-800">
+            <button class="mt-10 px-8 py-3 font-semibold text-lg bg-blue-800 border border-gray-300 hover:border-blue-400 transition ease-in-out duration-150 rounded-lg shadow-sm text-white">
               Get Started
             </button>
           </div>
