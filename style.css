@@ -72,6 +72,26 @@
   transform: translate(4rem,5rem); /* Applies both X and Y translations */
 }
 
+.underline-opacity {
+  position: relative;
+}
+
+.underline-opacity::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 1px; /* Adjust thickness */
+  background-color: currentColor; /* Inherit text color */
+  opacity: 0.3; /* Default opacity */
+  transition: opacity 0.3s ease; /* Smooth transition */
+}
+
+.underline-opacity:hover::after {
+  opacity: 1; /* Full opacity on hover */
+}
+
 /* Small screens (640px and up) */
 @media (min-width: 640px) {
   .sm\:translate-x-4.sm\:translate-y-4 {
